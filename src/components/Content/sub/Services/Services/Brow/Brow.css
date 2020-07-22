@@ -1,0 +1,29 @@
+.browsImg{
+    width:70%
+}
+.brows-followup{
+    padding-left:1em;
+}
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .browsImg {
+        width:70%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .browsImg {
+        width:70%;
+    }
+}

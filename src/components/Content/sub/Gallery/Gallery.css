@@ -1,0 +1,56 @@
+.disclaimer {
+	padding-top: 1em;
+	padding-bottom: 0.5 em;
+}
+.gallery-container {
+	width: 100%;
+}
+.gallery-title {
+	text-align: center;
+	font-size: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+}
+/* Small devices (landscape phones, 400px and up) */
+@media (min-width: 400px) {
+	.gallery-img-css {
+		padding: 0.5em;
+		max-width: 161px;
+		max-height: 161px;
+		height: 161px;
+		width: 161px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.gallery-img-css {
+		padding: 1em;
+		max-width: 300px;
+		max-height: 400px;
+		height: 300px;
+		width: 300px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.gallery-img-css {
+		padding: 1em;
+		max-width: 300px;
+		max-height: 400px;
+		height: 300px;
+		width: 300px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.gallery-img-css {
+		padding: 1em;
+		max-width: 300px;
+		max-height: 400px;
+		height: 300px;
+		width: 350px;
+	}
+}

@@ -1,0 +1,10 @@
+.footer-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: center;
+
+}
+.footer-container.jumbotron {
+    background-color: #dad6d3;
+}
