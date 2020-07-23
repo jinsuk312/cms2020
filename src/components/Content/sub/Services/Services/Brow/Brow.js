@@ -9,14 +9,6 @@ class Brow extends Component {
 			<div className="brows-container">
 				<Grid>
 					<Row className="brows-show-grid">
-						{/* <Col>
-              <div className="brows-followup">
-                <h4>
-                  All prices include Initial and one complimentary follow up
-                  session. Additional follow up sessions are priced at $200.
-                </h4>
-              </div>
-            </Col> */}
 						<Col md={6} mdPush={6}>
 							<Image
 								className="browsImg"
@@ -111,19 +103,19 @@ class Brow extends Component {
 									</Col>
 									<Col md={6} mdPush={6}>
 										<p>
-											1-2 months after initial treatment{' '}
+											1-2 months after initial treatment
 											<span className="time">$100</span>
 										</p>
 										<p>
-											3-6 months after initial treatment{' '}
+											3-6 months after initial treatment
 											<span className="time">$150</span>
 										</p>
 										<p>
-											6-12 months after initial treatment{' '}
+											6-12 months after initial treatment
 											<span className="time">$200</span>
 										</p>
 										<p>
-											12-18 months after initial treatment{' '}
+											12-18 months after initial treatment
 											<span className="time">$300</span>
 										</p>
 										<p>

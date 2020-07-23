@@ -34,7 +34,7 @@ class Home extends Component {
 						</Row>
 						<hr />
 						<Row>
-							<Col md={8} xs={8}>
+							<Col md={8} xs={6}>
 								<h5>
 									Chicago Microblading Studio is promoted each week on AM 560
 									The Answer - click to hear our radio commercial below.
@@ -44,19 +44,19 @@ class Home extends Component {
 									Your browser does not support the audio element.
 								</audio>
 							</Col>
-							<Col md={4} xs={4}>
+							<Col md={4} xs={6}>
 								<Image
 									src={logoAnswer}
 									alt="TheAnswer"
-									className="link"
-									thumbnail
+									className="answer"
+									fluid
 								/>
 							</Col>
 						</Row>
 						<hr />
 						<Row>
 							<Col md={12} xs={12}>
-								<h2>Contact Us</h2>
+								<h2 className="title-home">Contact Us</h2>
 								<form
 									method="POST"
 									action="https://formspree.io/info@chicagomicrobladingstudio.com"
@@ -120,12 +120,12 @@ class Home extends Component {
 							<Col md={12} xs={11}>
 								<Row className="info">
 									<Col xs={12} md={4}>
-										<h3>Our Location</h3>
+										<h3 className="title-home">Our Location</h3>
 										<p>2860 N Broadway, Salons By JC, Suite 8</p>
 										<p>Chicago, IL 60657</p>
 									</Col>
 									<Col xs={12} md={4}>
-										<h3>Contact Info</h3>
+										<h3 className="title-home">Contact Info</h3>
 										<p>
 											Phone: <a href="tel:1-312-852-1388">1-312-852-1388</a>
 										</p>
@@ -140,7 +140,7 @@ class Home extends Component {
 										</p>
 									</Col>
 									<Col xs={12} md={4}>
-										<h3>Hours of Operation</h3>
+										<h3 className="title-home">Hours of Operation</h3>
 										<p>Sunday-Monday: CLOSED</p>
 										<p>Tue-Thurs: 10:00AM-6:00PM</p>
 										<p>Friday-Saturday: 10:00AM-4:00PM</p>

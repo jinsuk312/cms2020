@@ -30,3 +30,7 @@
 
 @media (min-width: 1200px) {
 }
+
+p {
+	padding: 0.5 0 0.5 0;
+}

@@ -1,7 +1,13 @@
-.menImg{
-    width:70%;
+.menImg {
+	width: 70%;
 }
 
-.men-followup{
-    padding-left:1em;
+.men-followup {
+	padding-left: 1em;
+}
+h3 {
+	padding: 0.5em 0em 0.5em 0em;
+}
+p {
+	padding: 0.5em 0em 0.5em 0em;
 }

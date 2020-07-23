@@ -1,6 +1,10 @@
 .home-container {
 	max-width: 100%;
 }
+.title-home {
+	font-size: 1.5em;
+	text-align: center;
+}
 .info {
 	text-align: center;
 }
@@ -16,6 +20,16 @@
 }
 .info {
 	font-weight: 600;
+	padding-bottom: 1em;
+}
+.info p {
+	padding: 0.5em;
+}
+.info h3 {
+	padding: 1em;
+}
+.answer {
+	max-width: 200px;
 }
 /* XSmall devices (landscape phones, 576px and up) */
 @media (min-width: 400px) {
