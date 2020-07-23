@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Image, Grid, Row, Col } from 'react-bootstrap';
 import bg from '../../../../assets/img/bg7.png';
 // import Modal from "./Modal/Modal";
-import commercial from '../../../../assets/audio/THEANSWER.mp3';
+import commercial from './THEANSWER.mp3';
 import logoAnswer from '../../../../assets/img/theanswer.png';
 import './Home.css';
 class Home extends Component {
@@ -63,7 +63,9 @@ class Home extends Component {
 									id="contact-form"
 								>
 									<div className="form-group">
-										<label htmlFor="name">Name</label>
+										<label className="contact-Title" htmlFor="name">
+											Name
+										</label>
 										<input
 											type="text"
 											className="form-control"
@@ -73,7 +75,9 @@ class Home extends Component {
 										/>
 									</div>
 									<div className="form-group">
-										<label htmlFor="email">Email address</label>
+										<label className="contact-Title" htmlFor="email">
+											Email address
+										</label>
 										<input
 											type="email"
 											className="form-control"
@@ -83,7 +87,9 @@ class Home extends Component {
 										/>
 									</div>
 									<div className="form-group">
-										<label htmlFor="subject">Subject</label>
+										<label className="contact-Title" htmlFor="subject">
+											Subject
+										</label>
 										<input
 											type="text"
 											placeholder="Subject"
@@ -94,7 +100,9 @@ class Home extends Component {
 									</div>
 
 									<div className="form-group">
-										<label htmlFor="message">Message</label>
+										<label className="contact-Title" htmlFor="message">
+											Message
+										</label>
 										<textarea
 											className="form-control"
 											rows="5"

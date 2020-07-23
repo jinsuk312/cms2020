@@ -3,4 +3,5 @@ li {
 }
 ul li {
 	list-style-type: initial;
+	list-style-position: inside;
 }
